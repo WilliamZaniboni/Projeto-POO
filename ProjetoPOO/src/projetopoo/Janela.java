@@ -13,12 +13,17 @@ public class Janela extends JFrame{
     
     public Janela(){
         
+        
+        
         add(new JanelaemJogo());
-       
+        
         setUndecorated(true);
         //setTitle("Projeto: POO");
-        Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
-        setSize(size);
+         setSize(1280, 720);
+        //Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
+       // setSize(size);
+        
+       // System.out.printf("x = " + size.getWidth());
         
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

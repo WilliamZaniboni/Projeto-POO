@@ -16,20 +16,20 @@ public class Tabuleiro {
         
         String aviso ;
         
-        if(this.x<484 ){
+        if(this.x<327 ){
             aviso = "Quadrante: null";
         }
-        else if(this.x>1700){
+        else if(this.x>1135){
             aviso = "Quadrante: null";
         }
-        else if(this.y<154){
+        else if(this.y<88){
             aviso = "Quadrante: null";
         }
-        else if(this.y>762){
+        else if(this.y>517){
             aviso = "Quadrante: null";
         }
         else{
-           aviso = "Quadrante: ["+(this.x-484)/76+"]["+(this.y-154)/76+"}";
+           aviso = "Quadrante: ["+(this.x-327)/54+"]["+(this.y-88)/54+"]";
         }
         
         
